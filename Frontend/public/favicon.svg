@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="RenfrewPlus favicon">
+  <defs>
+    <style>
+      .r {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 48px;
+        font-weight: 900;
+      }
+    </style>
+  </defs>
+
+  <text class="r" x="10" y="50" fill="#111111">R</text>
+
+  <g transform="translate(37 10) scale(0.85) skewX(-12)">
+    <path
+      d="M 8 0
+         H 16
+         V 9
+         H 25
+         V 17
+         H 16
+         V 26
+         H 8
+         V 17
+         H 0
+         V 9
+         H 8
+         Z"
+      fill="#86C5FF"
+      stroke="#ffffff"
+      stroke-width="2.75"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

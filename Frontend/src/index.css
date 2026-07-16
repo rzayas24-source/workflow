@@ -1,0 +1,71 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #102033;
+  background:
+    radial-gradient(circle at top left, rgba(143, 200, 255, 0.20), transparent 26%),
+    radial-gradient(circle at top right, rgba(255, 184, 214, 0.16), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.78), transparent 28%),
+    linear-gradient(180deg, #f7f9fc 0%, #eef3f9 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-nav-button {
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease,
+    filter 160ms ease;
+}
+
+.sidebar-nav-button:hover {
+  transform: translateX(4px) translateY(-1px);
+  border-color: rgba(143, 200, 255, 0.45) !important;
+  box-shadow:
+    0 18px 32px rgba(52, 84, 120, 0.14),
+    0 0 0 1px rgba(255, 184, 214, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95);
+  filter: saturate(1.06) brightness(1.02);
+}
+
+.sidebar-nav-button:hover .sidebar-nav-button__glyph {
+  background: rgba(255, 255, 255, 0.94);
+  color: #5f85b0;
+  transform: translateX(2px);
+}
+
+.sidebar-nav-button:focus-visible {
+  outline: 2px solid rgba(143, 200, 255, 0.7);
+  outline-offset: 2px;
+}

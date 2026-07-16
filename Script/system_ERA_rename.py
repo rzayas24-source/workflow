@@ -3,10 +3,10 @@
 import os
 import shutil
 from db import get_conn
-from system_paths import ERA_FOLDER, ERA_RENAMED_FOLDER
 from system_calendar_core import get_current_work_day, normalize_mmddyyyy
 
-ERA_OUT_FOLDER = ERA_RENAMED_FOLDER
+ERA_FOLDER = r"C:\Renfrew\2.AVATAR\2_ERA-835"
+ERA_OUT_FOLDER = r"C:\Renfrew\2.AVATAR\2_ERA-835\RENAMED"
 
 
 def resolve_bank_day():
